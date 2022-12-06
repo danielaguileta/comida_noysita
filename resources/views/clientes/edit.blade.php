@@ -41,7 +41,7 @@
           <div class="col-6">
             <div class="form-group">
                 <label for="">RTN</label>
-                <input type="text" class="form-control" id="rtn" name="rtn" placeholder="" value="{{old('rtn', $clientes['RTN_CLIENTE'])}}">required>    <div class="valid-feedback">DATO VALIDO.</div><div class="invalid-feedback">LOS CAMPOS NO PUEDEN ESTAR VACIOS.INTRODUZCA SOLO NUMEROS</div>
+                <input type="text" class="form-control" id="rtn" name="rtn" placeholder="" value="{{old('rtn', $clientes['RTN_CLIENTE'])}}"required>    <div class="valid-feedback">DATO VALIDO.</div><div class="invalid-feedback">LOS CAMPOS NO PUEDEN ESTAR VACIOS.INTRODUZCA SOLO NUMEROS</div>
                 @error('rtn')
                 <span class="text-danger">{{$message}}</span>
                 @enderror
@@ -70,7 +70,7 @@
           <div class="col-6">
             <div class="form-group">
                 <label for="">Ingreso Cliente</label>
-                <input type="date" class="form-control" id="ingreso_cliente" name="ingreso_cliente" placeholder="" value="{{old('ingreso_cliente', $clientes['FECHA_INGRESO_CLIENTE'])}}"equired>    <div class="valid-feedback">DATO VALIDO.</div><div class="invalid-feedback">LOS CAMPOS NO PUEDEN ESTAR VACIOS.INTRODUZCA UNA FECHA</div>
+                <input type="date" class="form-control" id="ingreso_cliente" name="ingreso_cliente" placeholder="" value="{{old('ingreso_cliente', $clientes['FECHA_INGRESO_CLIENTE'])}}"required>    <div class="valid-feedback">DATO VALIDO.</div><div class="invalid-feedback">LOS CAMPOS NO PUEDEN ESTAR VACIOS.INTRODUZCA UNA FECHA</div>
                 @error('ingreso_cliente')
                 <span class="text-danger">{{$message}}</span>
                 @enderror
