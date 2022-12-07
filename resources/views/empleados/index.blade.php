@@ -108,17 +108,19 @@
 
 
 
-   <script>
+<script>
         $(document).ready(function() {
     $('#empleados').DataTable( {
         dom: 'Bfrtip',
         buttons: [
              'excel', 'pdf', 'print'
-        ]
+        ],
+"language": {
+        "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Spanish.json"
+    },     
     } );
 } );
     </script>
-
 <script>
   @if(Session::has('agregado'))
   toastr.options =
