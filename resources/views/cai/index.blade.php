@@ -90,16 +90,18 @@
 <script src="https://cdn.datatables.net/buttons/2.3.2/js/buttons.print.min.js"></script>
 
 <script>
-    $(document).ready(function() {
+        $(document).ready(function() {
     $('#CAI').DataTable( {
         dom: 'Bfrtip',
         buttons: [
              'excel', 'pdf', 'print'
-        ]
+        ],
+"language": {
+        "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Spanish.json"
+    },     
     } );
 } );
-</script>
-
+    </script>
 
 
 
