@@ -56,7 +56,7 @@
           <div class="col-6">
             <div class="form-group">
                 <label for="">Tipo Pago</label>
-                <input type="text" class="form-control" id="tipo_pago" name="tipo_pago" placeholder="" value="{{old('rtn', $clientes['TIPO_PAGO'])}}">
+                <input type="text" class="form-control" id="tipo_pago" name="tipo_pago" placeholder="" value="{{old('tipo_pago', $clientes['TIPO_PAGO'])}}">
                 <div class="valid-feedback">DATO VALIDO.</div>
               <div class="invalid-feedback">LOS CAMPOS NO PUEDEN ESTAR VACIOS.INTRODUZCA SOLO LETRAS</div>
                 @error('tipo_pago')
