@@ -21,7 +21,7 @@
                 <div class="col-6">
             <div class="form-group">
                 <label for="">Nombre Cliente</label>
-                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="" value="{{old('nombre', $clientes['NOMBRE_CLIENTE'])}}">
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="" value="{{old('nombre', $clientes['NOMBRE_CLIENTE'])}}" required>
                 <div class="valid-feedback">DATO VALIDO.</div>
               <div class="invalid-feedback">LOS CAMPOS NO PUEDEN ESTAR VACIOS.INTRODUZCA SOLO LETRAS</div>
                 @error('nombre')
@@ -32,7 +32,7 @@
           <div class="col-6">
             <div class="form-group">
                 <label for="">Identidad</label>
-                <input type="text" class="form-control" id="identidad" name="identidad" placeholder="" value="{{old('identidad', $clientes['IDENTIDAD_CLIENTE'])}}">
+                <input type="text" class="form-control" id="identidad" name="identidad" placeholder="" value="{{old('identidad', $clientes['IDENTIDAD_CLIENTE'])}}" required>
                 <div class="valid-feedback">DATO VALIDO.</div>
               <div class="invalid-feedback">LOS CAMPOS NO PUEDEN ESTAR VACIOS.INTRODUZCA SOLO NUMEROS</div>
                 @error('identidad')
@@ -45,7 +45,7 @@
           <div class="col-6">
             <div class="form-group">
                 <label for="">RTN</label>
-                <input type="text" class="form-control" id="rtn" name="rtn" placeholder="" value="{{old('rtn', $clientes['RTN_CLIENTE'])}}">
+                <input type="text" class="form-control" id="rtn" name="rtn" placeholder="" value="{{old('rtn', $clientes['RTN_CLIENTE'])}}"required>
                 <div class="valid-feedback">DATO VALIDO.</div>
               <div class="invalid-feedback">LOS CAMPOS NO PUEDEN ESTAR VACIOS.INTRODUZCA SOLO NUMEROS</div>
                 @error('rtn')
@@ -56,7 +56,7 @@
           <div class="col-6">
             <div class="form-group">
                 <label for="">Tipo Pago</label>
-                <input type="text" class="form-control" id="tipo_pago" name="tipo_pago" placeholder="" value="{{old('tipo_pago', $clientes['TIPO_PAGO'])}}">
+                <input type="text" class="form-control" id="tipo_pago" name="tipo_pago" placeholder="" value="{{old('tipo_pago', $clientes['TIPO_PAGO'])}}"required>
                 <div class="valid-feedback">DATO VALIDO.</div>
               <div class="invalid-feedback">LOS CAMPOS NO PUEDEN ESTAR VACIOS.INTRODUZCA SOLO LETRAS</div>
                 @error('tipo_pago')
@@ -69,7 +69,7 @@
           <div class="col-6">
             <div class="form-group">
                 <label for="">Direccion</label>
-                <textarea class="form-control" rows="3" name="direccion" id="direccion"  placeholder="">{{old('direccion', $clientes['DIRECCION'])}}</textarea>
+                <textarea class="form-control" rows="3" name="direccion" id="direccion"  placeholder="" required>{{old('direccion', $clientes['DIRECCION'])}}</textarea>
                 <div class="valid-feedback">DATO VALIDO.</div>
               <div class="invalid-feedback">LOS CAMPOS NO PUEDEN ESTAR VACIOS.INTRODUZCA SOLO LETRAS</div>
                 @error('direccion')
@@ -80,7 +80,7 @@
           <div class="col-6">
             <div class="form-group">
                 <label for="">Ingreso Cliente</label>
-                <input type="date" class="form-control" id="ingreso_cliente" name="ingreso_cliente" placeholder="" value="{{old('ingreso_cliente', $clientes['FECHA_INGRESO_CLIENTE'])}}">
+                <input type="date" class="form-control" id="ingreso_cliente" name="ingreso_cliente" placeholder="" value="{{old('ingreso_cliente', $clientes['FECHA_INGRESO_CLIENTE'])}}" required>
                 <div class="valid-feedback">DATO VALIDO.</div>
               <div class="invalid-feedback">LOS CAMPOS NO PUEDEN ESTAR VACIOS.</div>
                 @error('ingreso_cliente')
