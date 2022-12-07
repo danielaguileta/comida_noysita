@@ -81,8 +81,6 @@
             <div class="form-group">
               <label for="">Ingreso Cliente</label>
               <input type="date" class="form-control" id="ingreso_cliente" name="ingreso_cliente" placeholder="" value="{{old('ingreso_cliente', $clientes['FECHA_INGRESO_CLIENTE'])}}">
-             <!--  <div class="valid-feedback">DATO VALIDO.</div>
-              <div class="invalid-feedback">LOS CAMPOS NO PUEDEN ESTAR VACIOS.INTRODUZCA UNA FECHA</div> -->
               @error('ingreso_cliente')
               <span class="text-danger">{{$message}}</span>
               @enderror
