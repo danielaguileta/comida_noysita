@@ -6,6 +6,7 @@ use App\Http\Requests\ValidacionCliente;
 use App\Models\Cliente;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Collection;
 
 
 
