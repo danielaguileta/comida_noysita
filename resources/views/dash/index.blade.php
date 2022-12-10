@@ -25,7 +25,7 @@
                 <div class="icon">
                     <i class="fas fa-dollar-sign"></i>
                 </div>
-                <a href="#" class="small-box-footer"><i class="fas fa-arrow-circle-right"></i></a>
+                <a href="#" class="small-box-footer"><i class="fas fa-arrow-circle-right">Ver empleados</i></a>
             </div>
         </div>
         <div class="col-lg-3 col-6">
