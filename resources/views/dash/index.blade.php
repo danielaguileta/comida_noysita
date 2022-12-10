@@ -12,68 +12,7 @@
 
 <div class="py-5 service-22">
     <div class="container">
-        <div class="col-lg-3 col-6">
-
-            <div class="small-box bg-info">
-                <div class="inner">
-                    
-                    <h4></h4>
-                  
-                    <p>Empleados</p>
-
-                </div>
-                <div class="icon">
-                    <i class="fas fa-dollar-sign"></i>
-                </div>
-                <a href="#" class="small-box-footer"><i class="fas fa-arrow-circle-right">Ver empleados</i></a>
-            </div>
-        </div>
-        <div class="col-lg-3 col-6">
-
-            <div class="small-box bg-warning">
-                <div class="inner">
-                    
-                    <h4></h4>
-
-                    <p></p>
-                   
-                </div>
-                <div class="icon">
-                    <i class="fas fa-dollar-sign"></i>
-                </div>
-                <a href="#" class="small-box-footer" data-toggle="modal" data-target="#saldo_pendiente_modal"><i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-6">
-            <div class="small-box bg-success">
-                <div class="inner">
-                   
-                    <h4 class="text-white"></h4>
-                    
-                    <p>Depositos</p>
-                </div>
-                <div class="icon">
-                    <i class="fas fa-hand-holding-usd"></i>
-                </div>
-                <a href="#" class="small-box-footer" data-toggle="modal" data-target="#deposito_modal"><i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-        </div>
-        <div class="col-lg-3 col-6">
-
-            <div class="small-box bg-danger">
-                <div class="inner">
-                   
-                    <h4></h4>
-                   
-                    <p></p>
-                </div>
-                <div class="icon">
-                    <i class="fas fa-cash-register"></i>
-                </div>
-                <a href="#" class="small-box-footer" data-toggle="modal" data-target="#retiro_modal"><i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-        </div>
+   
 
 
         <!-- Row -->
